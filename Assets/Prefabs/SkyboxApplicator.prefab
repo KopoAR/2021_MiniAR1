@@ -43,13 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 031e9463b1190ce4c851c23291f271cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _namedSkyboxs:
-  - Name: 
-    Material: {fileID: 2100000, guid: f922d1d063d682d4daac775a07fbfa20, type: 2}
-  - Name: 
-    Material: {fileID: 2100000, guid: f6cebeaae3f476e4297a7605e23a7176, type: 2}
-  - Name: 
-    Material: {fileID: 2100000, guid: f51b177a66de40f44b5d3ac866759071, type: 2}
-  - Name: 
-    Material: {fileID: 2100000, guid: 671b69c428f2e7542b780bd0a98abf06, type: 2}
-  _selection: 1
+  _namedSkyboxs: []
+  _selection: 0
