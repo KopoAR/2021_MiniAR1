@@ -30,10 +30,13 @@ namespace mv
             ChangeSkybox(_selection);
         }
 
-        private bool IsValidSelection(int index) => (index < _namedSkyboxs.Length) && (_namedSkyboxs[index].Material != null);
+        private bool IsValidSelection(int index) => (index < _namedSkyboxs.Length) && (index >= 0) && (_namedSkyboxs[index].Material != null);
 
         private void OnValidate()
         {
+            if (_namedSkyboxs.Length == 0)
+                return;
+
             if (!IsValidSelection(_selection))
             {
                 _selection = _correctSelection;
