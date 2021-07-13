@@ -14,9 +14,10 @@ public class SimpleSentencesSender : MonoBehaviour
 
     public void SendLocal()
     {
-        var so = new SentencesSO();
+        var so = ScriptableObject.CreateInstance<SentencesSO>();
         so.Data = _sentencesData;
 
         ActiveDialogSO?.Active(so);
     }
 }
+    
