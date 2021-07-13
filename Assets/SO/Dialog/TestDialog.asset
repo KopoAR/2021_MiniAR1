@@ -15,6 +15,15 @@ MonoBehaviour:
   Data:
     Title: Key
     Sentences:
-    - This
-    - is
-    - new key!
+    - Sentence: this
+      Actions:
+        m_PersistentCalls:
+          m_Calls: []
+    - Sentence: is
+      Actions:
+        m_PersistentCalls:
+          m_Calls: []
+    - Sentence: new key
+      Actions:
+        m_PersistentCalls:
+          m_Calls: []

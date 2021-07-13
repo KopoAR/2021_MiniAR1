@@ -13,7 +13,7 @@ public class Dialog : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _title;
     [SerializeField] private TextMeshProUGUI _sentence;
 
-    private Queue<string> _sentenceQueue;
+    private Queue<SentenceData> _sentenceQueue;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class Dialog : MonoBehaviour
 
         _panel.SetActive(false);
         _onActiveCh.OnActive += OnActive;
-        _sentenceQueue = new Queue<string>();
+        _sentenceQueue = new Queue<SentenceData>();
     }
 
     private void OnActive(SentencesSO data)
@@ -50,6 +50,7 @@ public class Dialog : MonoBehaviour
         }
 
         var nextSentence = _sentenceQueue.Dequeue();
-        _sentence.text = nextSentence;
+        _sentence.text = nextSentence.Sentence;
+        nextSentence.Actions?.Invoke();
     }
 }
