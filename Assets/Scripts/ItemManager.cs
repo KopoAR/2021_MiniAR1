@@ -16,6 +16,7 @@ public class ItemManager : MonoBehaviour
         }
     }
     private static ItemManager i_instance;
+
     public int itemCount { get; private set; }
 
     private void Awake()
@@ -29,7 +30,7 @@ public class ItemManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-    public void ItemCountAdd()
+    public void ItemCountAdd() //void
     {   //아이템 카운트 증가
         Debug.Log(itemCount);
         ++itemCount;

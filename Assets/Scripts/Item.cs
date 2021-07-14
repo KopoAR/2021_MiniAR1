@@ -1,31 +1,58 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class Item : MonoBehaviour
+public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    private bool check;     //처음 클릭을 확인하는 변수
-    public GameObject back;
+    // 이미지 컴포넌트 획득
+
+    [SerializeField] private ActiveDialogSO _activeDialogSO;
+    [SerializeField] private InventorySO _inventorySO;
+    [SerializeField] private ItemSO _itemSO;
+
+    [SerializeField] private Inventory inven;
+
+    private Image _itemImage;
+
 
     private void Awake()
     {
-        check= false;
+        Debug.Assert(_inventorySO != null);
+        Debug.Assert(_itemSO != null);
+        Debug.Assert(_activeDialogSO != null);
+
+       _itemImage = GetComponent<Image>();
     }
 
-    public void ClikItem()
-    {   //다이알로그 출력
-        StartCoroutine(ActiveUI());
-        Debug.Log(check);
-        if(!check)
-        {   //첫 클릭시 아이템 갯수 올림
-            check = true;
-            ItemManager.instance.ItemCountAdd();
-        }
-    }
-
-    private IEnumerator ActiveUI()
+    private void Start()
     {
-        back.SetActive(true);
-        yield return new WaitForSeconds(1.5f);
-        back.SetActive(false);
+        _itemImage.sprite = _itemSO.Image;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        //throw new System.NotImplementedException();
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        _inventorySO.Taken.Add(_itemSO);
+        inven.UpDateUI(_itemSO.Image);
+
+        var so = ScriptableObject.CreateInstance<SentencesSO>();
+
+        so.Data.Title = "";
+        so.Data.Sentences = new SentenceData[1];
+        so.Data.Sentences[0].Sentence = $"{_itemSO.Name}를 획득했다.";
+
+        _activeDialogSO.Active(so);
+
+        Destroy(gameObject);
     }
 }
