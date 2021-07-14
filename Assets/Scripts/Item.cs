@@ -5,16 +5,13 @@ using UnityEngine.EventSystems;
 
 public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    // ÀÌ¹ÌÁö ÄÄÆ÷³ÍÆ® È¹µæ
+    // ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® È¹ï¿½ï¿½
 
     [SerializeField] private ActiveDialogSO _activeDialogSO;
     [SerializeField] private InventorySO _inventorySO;
     [SerializeField] private ItemSO _itemSO;
 
-    [SerializeField] private Inventory inven;
-
     private Image _itemImage;
-
 
     private void Awake()
     {
@@ -43,13 +40,12 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerClick(PointerEventData eventData)
     {
         _inventorySO.Taken.Add(_itemSO);
-        inven.UpDateUI(_itemSO.Image);
 
         var so = ScriptableObject.CreateInstance<SentencesSO>();
 
         so.Data.Title = "";
         so.Data.Sentences = new SentenceData[1];
-        so.Data.Sentences[0].Sentence = $"{_itemSO.Name}¸¦ È¹µæÇß´Ù.";
+        so.Data.Sentences[0].Sentence = $"{_itemSO.Name}ï¿½ï¿½ È¹ï¿½ï¿½ï¿½ß´ï¿½.";
 
         _activeDialogSO.Active(so);
 
