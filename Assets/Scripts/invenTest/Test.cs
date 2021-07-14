@@ -5,6 +5,7 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
     public Slot[] slot;
+
     public void AddItem(ItemSO _item)
     {
         for (int i = 0; i < slot.Length; i++)
