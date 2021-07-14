@@ -13,6 +13,8 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     private Image _itemImage;
 
+    public Test test;
+
     private void Awake()
     {
         Debug.Assert(_inventorySO != null);
@@ -40,14 +42,17 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerClick(PointerEventData eventData)
     {
         _inventorySO.Taken.Add(_itemSO);
-
+        test.AddItem(_itemSO);
+        
+        
         var so = ScriptableObject.CreateInstance<SentencesSO>();
 
         so.Data.Title = "";
         so.Data.Sentences = new SentenceData[1];
-        so.Data.Sentences[0].Sentence = $"{_itemSO.Name}�� ȹ���ߴ�.";
+        so.Data.Sentences[0].Sentence = $"{_itemSO.Name}을(를) 획득하였습니다.";
 
         _activeDialogSO.Active(so);
+        
 
         Destroy(gameObject);
     }
