@@ -43,8 +43,7 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     {
         _inventorySO.Taken.Add(_itemSO);
         test.AddItem(_itemSO);
-        
-        
+
         var so = ScriptableObject.CreateInstance<SentencesSO>();
 
         so.Data.Title = "";
