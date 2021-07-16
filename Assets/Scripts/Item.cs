@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     // �̹��� ������Ʈ ȹ��
+    [SerializeField] private ManualActionSO _activeSO;
 
     [SerializeField] private ActiveDialogSO _activeDialogSO;
     [SerializeField] private InventorySO _inventorySO;
@@ -31,11 +32,16 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
+        var m = ScriptableObject.CreateInstance<ManualSO>();
+        m.ManualData.Title = _itemSO.Name;
+        m.ManualData.manual = _itemSO.Desc;
+        m.ManualData.image = _itemSO.Image;
+        _activeSO.activeAtion(m);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        _activeSO.closeAction();
         //throw new System.NotImplementedException();
     }
 
