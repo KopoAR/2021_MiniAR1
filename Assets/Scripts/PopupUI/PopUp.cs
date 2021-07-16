@@ -38,6 +38,7 @@ public class PopUp : MonoBehaviour
 
     private void PopupClose()
     {
+        Debug.Log("close");
         panel.SetActive(false);
     }
 }

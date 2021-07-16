@@ -60,5 +60,6 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
         
 
         Destroy(gameObject);
+        _activeSO.closeAction();
     }
 }
