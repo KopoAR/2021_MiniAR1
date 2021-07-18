@@ -22,7 +22,13 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
         Debug.Assert(_itemSO != null);
         Debug.Assert(_activeDialogSO != null);
 
-       _itemImage = GetComponent<Image>();
+        _itemImage = GetComponent<Image>();
+
+        _itemImage.GetComponent<RectTransform>().sizeDelta = 
+            new Vector2(_itemSO.Image.rect.size.x, _itemSO.Image.rect.size.y);
+
+       // var size = _itemImage.GetComponent<RectTransform>().rect.size;
+       // size = new Vector2(_itemSO.Image.rect.size.x, _itemSO.Image.rect.size.y);
     }
 
     private void Start()
