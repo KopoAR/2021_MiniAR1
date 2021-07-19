@@ -14,19 +14,24 @@ public class Keypad : MonoBehaviour
     public string[] curPassword;
     public string input;
     public Text displayText;
-    public AudioSource failSound;
-    public AudioSource collectSound;
 
     private bool keypadScreen;
     private float btnClicked = 0;
     private float numOfGuesses;
 
+    public AudioClip correct_Effect;
+    public AudioClip fail_Effect;
 
+    private AudioSource audioSource;
+
+    
 
     void Start()
     {
         btnClicked = 0; 
-        numOfGuesses = curPassword.Length; 
+        numOfGuesses = curPassword.Length;
+        audioSource = GetComponent<AudioSource>();
+
     }
 
 
@@ -38,10 +43,8 @@ public class Keypad : MonoBehaviour
             {
                 if (input == curPassword[0])
                 {
-                    //Load the next scene
-                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    audioSource.PlayOneShot(correct_Effect);
 
-                    collectSound.Play();
                     input = "";
                     displayText.text = input.ToString();
                     btnClicked = 0;
@@ -50,8 +53,9 @@ public class Keypad : MonoBehaviour
                 }
                 else
                 {
+                    audioSource.PlayOneShot(fail_Effect);
+
                     input = "";
-                    failSound.Play();
                     displayText.text = input.ToString();
                     btnClicked = 0;
                 }
@@ -62,7 +66,8 @@ public class Keypad : MonoBehaviour
             {
                 if (input == curPassword[1])
                 {
-                    collectSound.Play();
+                    audioSource.PlayOneShot(correct_Effect);
+
                     input = "";
                     displayText.text = input.ToString();
                     btnClicked = 0;
@@ -71,8 +76,9 @@ public class Keypad : MonoBehaviour
                 }
                 else
                 {
+                    audioSource.PlayOneShot(fail_Effect);
+
                     input = "";
-                    failSound.Play();
                     displayText.text = input.ToString();
                     btnClicked = 0;
                 }
@@ -83,7 +89,8 @@ public class Keypad : MonoBehaviour
             {
                 if (input == curPassword[2])
                 {
-                    collectSound.Play();
+                    audioSource.PlayOneShot(correct_Effect);
+
                     input = "";
                     displayText.text = input.ToString();
                     btnClicked = 0;
@@ -92,8 +99,9 @@ public class Keypad : MonoBehaviour
                 }
                 else
                 {
+                    audioSource.PlayOneShot(fail_Effect);
+
                     input = "";
-                    failSound.Play();
                     displayText.text = input.ToString();
                     btnClicked = 0;
                 }
@@ -104,7 +112,8 @@ public class Keypad : MonoBehaviour
             {
                 if (input == curPassword[3])
                 {
-                    collectSound.Play();
+                    audioSource.PlayOneShot(correct_Effect);
+
                     input = "";
                     displayText.text = input.ToString();
                     btnClicked = 0;
@@ -113,8 +122,9 @@ public class Keypad : MonoBehaviour
                 }
                 else
                 {
+                    audioSource.PlayOneShot(fail_Effect);
+
                     input = "";
-                    failSound.Play();
                     displayText.text = input.ToString();
                     btnClicked = 0;
                 }
