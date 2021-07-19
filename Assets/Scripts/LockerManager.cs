@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class LockerManager : MonoBehaviour
 {
+    #region singleton
     public static LockerManager instance
     {
         get
@@ -20,6 +21,7 @@ public class LockerManager : MonoBehaviour
     }
 
     private static LockerManager m_instance;    //싱글턴이 할당될 변수
+    #endregion singleton
 
 
     private bool keyOn = false;
