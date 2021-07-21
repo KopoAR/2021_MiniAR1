@@ -756,6 +756,7 @@ MonoBehaviour:
   _sceneLoadTypes:
   - Scene: Lobby
     LoadMode: 1
+  _unloadCurrentScene: 1
 --- !u!1001 &1048447700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -766,10 +767,6 @@ PrefabInstance:
     - target: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_Name
       value: XR MOCK
-      objectReference: {fileID: 0}
-    - target: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982191714742, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_RootOrder
