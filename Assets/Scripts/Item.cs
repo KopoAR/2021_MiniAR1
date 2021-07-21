@@ -24,8 +24,8 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
         _itemImage = GetComponent<Image>();
 
-        _itemImage.GetComponent<RectTransform>().sizeDelta = 
-            new Vector2(_itemSO.Image.rect.size.x, _itemSO.Image.rect.size.y);
+        //_itemImage.GetComponent<RectTransform>().sizeDelta = 
+        //    new Vector2(_itemSO.Image.rect.size.x, _itemSO.Image.rect.size.y);
 
        // var size = _itemImage.GetComponent<RectTransform>().rect.size;
        // size = new Vector2(_itemSO.Image.rect.size.x, _itemSO.Image.rect.size.y);
@@ -39,10 +39,11 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerEnter(PointerEventData eventData)
     {
         var m = ScriptableObject.CreateInstance<ManualSO>();
+        var pos= _itemImage.transform.position;
         m.ManualData.Title = _itemSO.Name;
         m.ManualData.manual = _itemSO.Desc;
         m.ManualData.image = _itemSO.Image;
-        _activeSO.activeAtion(m);
+        _activeSO.activeAtion(m);//(m, pos);
     }
 
     public void OnPointerExit(PointerEventData eventData)

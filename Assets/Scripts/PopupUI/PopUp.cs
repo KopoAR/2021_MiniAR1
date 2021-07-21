@@ -26,12 +26,14 @@ public class PopUp : MonoBehaviour
         _manualAction.closeAction += PopupClose;
     }
 
-    private void Popup(ManualSO data)
+    private void Popup(ManualSO data)//, Vector3 pos)
     {
         title.text = data.ManualData.Title;
         manual.text = data.ManualData.manual;
         itemImage.sprite = data.ManualData.image;
-       
+
+       // panel.transform.position = new Vector3(pos.x, pos.y, pos.z);
+       // panel.transform.rotation = Quaternion.Euler(new Vector3(0f, -pos.y, 0f));
 
         panel.SetActive(true);
     }
