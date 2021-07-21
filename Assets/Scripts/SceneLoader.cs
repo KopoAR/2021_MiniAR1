@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    [SerializeField] SceneLoadType[] _sceneLoadTypes;
+    [SerializeField] private SceneLoadType[] _sceneLoadTypes;
+    [SerializeField] private bool _unloadCurrentScene = true;
+    
+    private Scene _currentScene;
 
     public void Load()
     {
@@ -16,9 +19,21 @@ public class SceneLoader : MonoBehaviour
             return;
         }
 
+        _currentScene = SceneManager.GetActiveScene();
         foreach (var s in _sceneLoadTypes)
         {
-            SceneManager.LoadSceneAsync(s.Scene, s.LoadMode);
+            var op = SceneManager.LoadSceneAsync(s.Scene, s.LoadMode);
+            op.allowSceneActivation = true;
+            op.completed += (res) => {
+                var loadedScene = SceneManager.GetSceneByName(s.Scene);
+                SceneManager.SetActiveScene(loadedScene);
+
+                if (_unloadCurrentScene)
+                {
+                    SceneManager.UnloadSceneAsync(_currentScene);
+                    _unloadCurrentScene = false;
+                }
+            };
         }
     }
 }
