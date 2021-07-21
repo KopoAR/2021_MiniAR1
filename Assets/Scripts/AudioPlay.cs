@@ -26,7 +26,7 @@ public class AudioPlay : MonoBehaviour
     void Start()
     {
         bgmManager.Play(playMusicTrack);
-        bgmManager.SetVoulme(0.3f);
+        bgmManager.SetVoulme(0.2f);
         
     }
 
