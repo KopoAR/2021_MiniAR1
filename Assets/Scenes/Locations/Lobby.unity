@@ -312,7 +312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.099998474, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472946193
@@ -348,7 +348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAD50\uC218\uB2D8\uBC29\n"
+  m_Text: "\uAD50\uC218\uB2D8\uBC29"
 --- !u!222 &472946194
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1331,14 +1331,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049022535}
-  m_LocalRotation: {x: -0, y: -0.9231498, z: -0, w: -0.38444057}
+  m_LocalRotation: {x: -0, y: -0.86565846, z: -0, w: -0.50063515}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2060443976}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: -225.218, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -240.084, z: 0}
 --- !u!114 &1049022537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3182,7 +3182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBA54\uC778 \uBCF5\uB3C4\uC774\uB3D9"
+  m_Text: "\uBCF5\uB3C4"
 --- !u!222 &2073017921
 CanvasRenderer:
   m_ObjectHideFlags: 0
