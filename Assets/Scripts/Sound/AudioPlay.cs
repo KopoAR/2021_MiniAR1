@@ -7,22 +7,21 @@ public class AudioPlay : MonoBehaviour
     public string clickBT_Effect;
     public string moveScene_Effect;
     public string getItem_Effect;
+    public string nextText_Effect;
 
-    //public string correctPW_Effect;
-    //public string failPW_Effect;
 
     private AudioManager audioManager;
-    private BGMManager bgmManager;
+    //private BGMManager bgmManager;
 
-    public int playMusicTrack;
+    //public int playMusicTrack;
 
     void Start()
     {
         audioManager = AudioManager.instance;
-        bgmManager = BGMManager.instance;
+        //bgmManager = BGMManager.instance;
 
-        bgmManager.Play(playMusicTrack);
-        bgmManager.SetVoulme(0.2f);
+       // bgmManager.Play(playMusicTrack);
+        //bgmManager.SetVo+ulme(0.2f, playMusicTrack);
     }
 
     public void Click_Effect()
@@ -42,16 +41,8 @@ public class AudioPlay : MonoBehaviour
         audioManager.Play(getItem_Effect);
     }
 
-
-
-    //public void Correct_Effect()
-    //{
-    //    audioManager.Play(correctPW_Effect);
-    //}
-
-    //public void Fail_Effect()
-    //{
-    //    audioManager.Play(failPW_Effect);
-    //}
-
+    public void NextText_Effect()
+    {
+        audioManager.Play(nextText_Effect);
+    }
 }

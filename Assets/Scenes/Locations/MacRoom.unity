@@ -1852,6 +1852,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3491250709494409905, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954655987236576664, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6489807596100077903, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1899,6 +1907,14 @@ PrefabInstance:
     - target: {fileID: 7507118946221442800, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_Name
       value: Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507118946221442800, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557542608958609481, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
@@ -2155,6 +2171,8 @@ MonoBehaviour:
   - Scene: MainStreet
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 0}
+  _eventSys: {fileID: 0}
 --- !u!224 &1613117846 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4418083511211861205, guid: 93ebcc84d7208594c985f7d7d5b145fe, type: 3}

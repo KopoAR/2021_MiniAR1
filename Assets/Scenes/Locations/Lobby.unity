@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20363843, g: 0.20386875, b: 0.20986706, a: 1}
+  m_IndirectSpecularColor: {r: 0.2023649, g: 0.20362969, b: 0.20921507, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1548,6 +1548,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5213939
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8533161
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -242.85199
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
 --- !u!1 &1615653657 stripped
@@ -1818,6 +1830,10 @@ PrefabInstance:
       propertyPath: playMusicTrack
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4954655987236576664, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6489807596100077903, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1866,7 +1882,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sound
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7507118946221442800, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557542608958609481, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651282642951604356, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7720360764058755014, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 712434871314129566, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
 --- !u!1001 &1991888678
 PrefabInstance:
