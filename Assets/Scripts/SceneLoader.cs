@@ -26,6 +26,10 @@ public class SceneLoader : MonoBehaviour
         _currentScene = SceneManager.GetActiveScene();
         foreach (var s in _sceneLoadTypes)
         {
+            var sceneObj = SceneManager.GetSceneByName(s.Scene);
+            if (sceneObj.isLoaded)
+                continue;
+
             var op = SceneManager.LoadSceneAsync(s.Scene, s.LoadMode);
             op.allowSceneActivation = true;
             op.completed += (res) => {
