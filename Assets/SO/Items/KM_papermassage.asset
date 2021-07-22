@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: KM_papermassage
   m_EditorClassIdentifier: 
   Name: "\uC218\uC0C1\uD55C \uBA54\uC138\uC9C0"
-  Desc: "\uB9E5 \uACBD\uBBF8"
+  Desc: "\uB178\uACBD\uBBF8\uC790\uB9AC\uC758 \uB178\uD2B8 \uB2E4\uC74C\uC7A5. \uC606\uC790\uB9AC
+    \uC0AC\uB78C\uC740 \uAE40\uC18C\uD76C\uB97C \uB9D0\uD558\uB294 \uAC78\uAE4C."
   Image: {fileID: 21300000, guid: 16d1d7d5262c50646be7b01d4106942e, type: 3}
