@@ -627,10 +627,6 @@ PrefabInstance:
     - target: {fileID: 3968206039436468034, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 2120207876}
-    - target: {fileID: 3968206039436468034, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
-      propertyPath: m_RenderMode
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_Pivot.x
