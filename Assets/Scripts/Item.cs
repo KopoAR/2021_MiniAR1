@@ -14,7 +14,7 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     private Image _itemImage;
 
-    public Test test;
+    //public Test test;
 
     private void Awake()
     {
@@ -55,7 +55,7 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerClick(PointerEventData eventData)
     {
         _inventorySO.Taken.Add(_itemSO);
-        test.AddItem(_itemSO);
+        //test.AddItem(_itemSO);
 
         var so = ScriptableObject.CreateInstance<SentencesSO>();
 

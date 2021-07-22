@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17207715, g: 0.19275023, b: 0.17685008, a: 1}
+  m_IndirectSpecularColor: {r: 0.17202911, g: 0.19213672, b: 0.17642346, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -321,7 +321,7 @@ RectTransform:
   - {fileID: 1202237593}
   - {fileID: 1479340202}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -335,6 +335,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3690389913880436556, guid: a995207d141f6d3488be7bdc425468b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3690389913937145029, guid: a995207d141f6d3488be7bdc425468b7, type: 3}
       propertyPath: m_Name
       value: Canvas (1)
@@ -1090,7 +1094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3932498737957320661, guid: ecc0c2fc1ebbbf4449997cd950fa90e1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3932498737957320661, guid: ecc0c2fc1ebbbf4449997cd950fa90e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1380,7 +1384,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &575783647
 PrefabInstance:
@@ -1395,7 +1399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1033600986438965502, guid: 2d0db8a2b8cb4c849887f031360d7556, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1033600986438965502, guid: 2d0db8a2b8cb4c849887f031360d7556, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1469,7 +1473,7 @@ Transform:
   m_Children:
   - {fileID: 1223497814}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -290.915, z: 0}
 --- !u!114 &667364972
 MonoBehaviour:
@@ -1554,7 +1558,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &954269157 stripped
 MonoBehaviour:
@@ -1842,7 +1846,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6489807596100077903, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6489807596100077903, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2705,41 +2709,45 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 3968206039436468034, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1261313353}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2751,11 +2759,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2763,7 +2771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3968206039436468035, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
       propertyPath: m_LocalRotation.z
