@@ -10,7 +10,7 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] private bool _unloadCurrentScene = true;
     
     private Scene _currentScene;
-
+    private bool _executeLoad;
     public void Load()
     {
         if (_sceneLoadTypes.Length > 1 && _sceneLoadTypes.Any(x => x.LoadMode == LoadSceneMode.Single))
@@ -19,6 +19,10 @@ public class SceneLoader : MonoBehaviour
             return;
         }
 
+        if (_executeLoad)
+            return;
+
+        _executeLoad = true;
         _currentScene = SceneManager.GetActiveScene();
         foreach (var s in _sceneLoadTypes)
         {
