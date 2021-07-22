@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42b8c45dc065c4e9a3606b58e9e4db, type: 3}
   m_Name: SH_paper
   m_EditorClassIdentifier: 
-  Name: "\uBC88\uD638\uAC00 \uC801\uD78C \uC885\uC774"
-  Desc: "\uB9E5 \uC18C\uD76C"
+  Name: "\uD3EC\uC2A4\uD2B8\uC787"
+  Desc: "\uAE40\uC18C\uD76C \uC790\uB9AC\uC5D0 \uBD99\uC5B4\uC788\uB2E4."
   Image: {fileID: 21300000, guid: e3fb6534a37121a4293353a9fca5ed56, type: 3}
