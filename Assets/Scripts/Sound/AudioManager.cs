@@ -66,6 +66,7 @@ public class AudioManager : MonoBehaviour
         else
         {
             instance = this;
+            //DontDestroyOnLoad(gameObject);
         }
     }
     #endregion singleton
@@ -102,7 +103,7 @@ public class AudioManager : MonoBehaviour
         {
             if (_name == sounds[i].name)
             {
-                sounds[i].Play();
+                sounds[i].Stop();
                 return;
             }
         }
