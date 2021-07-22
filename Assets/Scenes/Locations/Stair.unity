@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17707935, g: 0.17320183, b: 0.1895967, a: 1}
+  m_IndirectSpecularColor: {r: 0.1773816, g: 0.1741845, b: 0.19001104, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -271,6 +271,11 @@ PrefabInstance:
 --- !u!4 &284601795 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+  m_PrefabInstance: {fileID: 284601794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &284601796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
   m_PrefabInstance: {fileID: 284601794}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &365623302
@@ -777,7 +782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3129376458669401581, guid: 918ab987f430ad24fb79dd5bb0a3628e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3129376459891050101, guid: 918ab987f430ad24fb79dd5bb0a3628e, type: 3}
       propertyPath: m_text
@@ -811,6 +816,8 @@ MonoBehaviour:
   - Scene: Lobby
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 284601796}
+  _eventSys: {fileID: 139178299}
 --- !u!1001 &893480125
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -205,6 +205,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
   m_PrefabInstance: {fileID: 216870780}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &216870782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+  m_PrefabInstance: {fileID: 216870780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &440983728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -852,6 +857,8 @@ MonoBehaviour:
   - Scene: Stair
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 216870782}
+  _eventSys: {fileID: 1748190655}
 --- !u!1 &1658715029
 GameObject:
   m_ObjectHideFlags: 0

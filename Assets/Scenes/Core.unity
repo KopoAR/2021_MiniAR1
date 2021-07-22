@@ -168,6 +168,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _coldLaunchSO: {fileID: 11400000, guid: 594ac3e3089bd664d91191bf7dea3dc8, type: 2}
 --- !u!114 &518103574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +185,8 @@ MonoBehaviour:
   - Scene: Intro
     LoadMode: 1
   _unloadCurrentScene: 0
+  _rig: {fileID: 0}
+  _eventSys: {fileID: 0}
 --- !u!4 &518103575
 Transform:
   m_ObjectHideFlags: 0

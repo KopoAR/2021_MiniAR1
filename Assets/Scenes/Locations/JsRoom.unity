@@ -596,6 +596,8 @@ MonoBehaviour:
   - Scene: Lobby
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 1600969907}
+  _eventSys: {fileID: 1189102288}
 --- !u!224 &1007784134 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4418083511211861205, guid: 93ebcc84d7208594c985f7d7d5b145fe, type: 3}
@@ -1378,6 +1380,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+--- !u!1 &1600969907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+  m_PrefabInstance: {fileID: 1600969906}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1942881833
 GameObject:
   m_ObjectHideFlags: 0

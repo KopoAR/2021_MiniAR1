@@ -457,6 +457,8 @@ MonoBehaviour:
   - Scene: JsRoom
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 1615653657}
+  _eventSys: {fileID: 2102681400}
 --- !u!1 &504151490
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +962,8 @@ MonoBehaviour:
   - Scene: MainStreet
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 1615653657}
+  _eventSys: {fileID: 2102681400}
 --- !u!1001 &1048468978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1323,6 +1327,8 @@ MonoBehaviour:
   - Scene: WinRoom
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 1615653657}
+  _eventSys: {fileID: 2102681400}
 --- !u!1001 &1369162022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1336,7 +1342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1033600986438965500, guid: 2d0db8a2b8cb4c849887f031360d7556, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1033600986438965502, guid: 2d0db8a2b8cb4c849887f031360d7556, type: 3}
       propertyPath: m_RootOrder
@@ -1410,6 +1416,8 @@ MonoBehaviour:
   - Scene: Stair
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 1615653657}
+  _eventSys: {fileID: 2102681400}
 --- !u!1 &1552042472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+--- !u!1 &1615653657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+  m_PrefabInstance: {fileID: 1615653656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1618027114 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2040662821924600900, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
