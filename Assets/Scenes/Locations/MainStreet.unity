@@ -174,6 +174,8 @@ MonoBehaviour:
   - Scene: WinRoom
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 829023613}
+  _eventSys: {fileID: 800465934}
 --- !u!1 &259569659
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,6 +617,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
   m_PrefabInstance: {fileID: 829023611}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &829023613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+  m_PrefabInstance: {fileID: 829023611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &886322643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -866,6 +873,8 @@ MonoBehaviour:
   - Scene: Locker
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 829023613}
+  _eventSys: {fileID: 800465934}
 --- !u!1 &1240023459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1133,8 @@ MonoBehaviour:
   - Scene: MacRoom
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 829023613}
+  _eventSys: {fileID: 800465934}
 --- !u!1 &1433072078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3129376458669401581, guid: 918ab987f430ad24fb79dd5bb0a3628e, type: 3}
@@ -1145,6 +1156,8 @@ MonoBehaviour:
   - Scene: MeetingRoom
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 829023613}
+  _eventSys: {fileID: 800465934}
 --- !u!1001 &1619279316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1538,6 +1551,8 @@ MonoBehaviour:
   - Scene: Lobby
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 829023613}
+  _eventSys: {fileID: 800465934}
 --- !u!1001 &1939013155
 PrefabInstance:
   m_ObjectHideFlags: 0

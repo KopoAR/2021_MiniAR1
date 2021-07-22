@@ -781,6 +781,8 @@ MonoBehaviour:
   - Scene: Lobby
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 1962153832}
+  _eventSys: {fileID: 628030052}
 --- !u!1001 &1048447700
 PrefabInstance:
   m_ObjectHideFlags: 0

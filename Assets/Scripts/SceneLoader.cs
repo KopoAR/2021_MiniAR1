@@ -11,6 +11,10 @@ public class SceneLoader : MonoBehaviour
     
     private Scene _currentScene;
     private bool _executeLoad;
+
+    [SerializeField] private GameObject _rig;
+    [SerializeField] private GameObject _eventSys;
+
     public void Load()
     {
         if (_sceneLoadTypes.Length > 1 && _sceneLoadTypes.Any(x => x.LoadMode == LoadSceneMode.Single))
@@ -21,6 +25,9 @@ public class SceneLoader : MonoBehaviour
 
         if (_executeLoad)
             return;
+
+        _rig?.SetActive(false);
+        _eventSys?.SetActive(false);
 
         _executeLoad = true;
         _currentScene = SceneManager.GetActiveScene();
