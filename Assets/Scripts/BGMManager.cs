@@ -21,7 +21,6 @@ public class BGMManager : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(this.gameObject);
             instance = this;
         }
     }
@@ -30,7 +29,8 @@ public class BGMManager : MonoBehaviour
 
     void Start()
     {
-        source = GetComponent<AudioSource>();
+        if(instance == this)
+            source = GetComponent<AudioSource>();
     }
 
     public void Play(int _playMusicTrack)

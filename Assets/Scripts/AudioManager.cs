@@ -65,7 +65,6 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(this.gameObject);
             instance = this;
         }
     }
@@ -74,9 +73,12 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        for(int i = 0; i < sounds.Length; i++)
+        if (instance != this)
+            return;
+
+        for (int i = 0; i < sounds.Length; i++)
         {
-            GameObject SoundObject = new GameObject("»ç¿îµå ÆÄÀÏ ÀÌ¸§ : " + i + sounds[i].name);
+            GameObject SoundObject = new GameObject("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ : " + i + sounds[i].name);
             sounds[i].SetSource(SoundObject.AddComponent<AudioSource>());
             SoundObject.transform.SetParent(this.transform);
         }

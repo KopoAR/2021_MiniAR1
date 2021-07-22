@@ -1334,6 +1334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoreColdLauncher
       objectReference: {fileID: 0}
+    - target: {fileID: 1033600986438965500, guid: 2d0db8a2b8cb4c849887f031360d7556, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1033600986438965502, guid: 2d0db8a2b8cb4c849887f031360d7556, type: 3}
       propertyPath: m_RootOrder
       value: 2

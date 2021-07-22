@@ -16,18 +16,13 @@ public class AudioPlay : MonoBehaviour
 
     public int playMusicTrack;
 
-
-    void Awake()
-    {
-        audioManager = FindObjectOfType<AudioManager>();
-        bgmManager = FindObjectOfType<BGMManager>();
-    }
-
     void Start()
     {
+        audioManager = AudioManager.instance;
+        bgmManager = BGMManager.instance;
+
         bgmManager.Play(playMusicTrack);
         bgmManager.SetVoulme(0.2f);
-        
     }
 
     public void Click_Effect()
