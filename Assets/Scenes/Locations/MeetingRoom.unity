@@ -132,19 +132,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.13917309
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9902681
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 196
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_Name
@@ -196,7 +196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9972502
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -204,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.07410845
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -212,7 +212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5443604982796118277, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 8.5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}

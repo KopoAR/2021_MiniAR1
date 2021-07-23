@@ -26,6 +26,12 @@ public class PopUp : MonoBehaviour
         _manualAction.closeAction += PopupClose;
     }
 
+    private void OnDestroy()
+    {
+        _manualAction.activeAtion -= Popup;
+        _manualAction.closeAction -= PopupClose;
+    }
+
     private void Popup(ManualSO data)//, Vector3 pos)
     {
         title.text = data.ManualData.Title;

@@ -1414,6 +1414,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopupItem
       objectReference: {fileID: 0}
+    - target: {fileID: 3968206039436468041, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968206039436468045, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfe6e5220a545af44a411d545c3aae6b, type: 3}
 --- !u!224 &3968206038940576972 stripped
@@ -1496,12 +1504,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 5443604982478104360}
     m_Modifications:
     - target: {fileID: 6556142783760832764, guid: 608b3ae8a99b30c40ae1741a24647de6, type: 3}
+      propertyPath: m_Name
+      value: Dialog-Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556142783760832764, guid: 608b3ae8a99b30c40ae1741a24647de6, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556142784062756353, guid: 608b3ae8a99b30c40ae1741a24647de6, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6556142784062756357, guid: 608b3ae8a99b30c40ae1741a24647de6, type: 3}
       propertyPath: m_Name
       value: Canvas-Dialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556142784062756357, guid: 608b3ae8a99b30c40ae1741a24647de6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6556142784062756367, guid: 608b3ae8a99b30c40ae1741a24647de6, type: 3}
       propertyPath: m_Pivot.x

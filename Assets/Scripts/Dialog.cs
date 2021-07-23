@@ -27,6 +27,11 @@ public class Dialog : MonoBehaviour
         _sentenceQueue = new Queue<SentenceData>();
     }
 
+    private void OnDestroy()
+    {
+        _onActiveCh.OnActive -= OnActive;
+    }
+
     private void OnActive(SentencesSO data)
     {
         _sentenceQueue.Clear();

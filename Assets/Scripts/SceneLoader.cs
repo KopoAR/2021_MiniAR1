@@ -26,8 +26,11 @@ public class SceneLoader : MonoBehaviour
         if (_executeLoad)
             return;
 
-        _rig?.SetActive(false);
-        _eventSys?.SetActive(false);
+        if (_rig != null)
+            _rig.SetActive(false);
+
+        if (_eventSys != null)
+            _eventSys.SetActive(false);
 
         _executeLoad = true;
         _currentScene = SceneManager.GetActiveScene();

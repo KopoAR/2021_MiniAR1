@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class SimpleStartSignal : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class SimpleStartSignal : MonoBehaviour
 #endif
 
         if (!_coldLaunchSO.isColdLaunch)
+        {
+            _onStart?.Invoke();
+            return;
+        }
+
+        if(SceneManager.sceneCount == 1)
             _onStart?.Invoke();
     }
 }
