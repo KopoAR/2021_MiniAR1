@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Book
   m_EditorClassIdentifier: 
   Name: "\uCC45"
-  Desc: "\uC0AC\uBB3C\uD568 \uACF5\uD1B5"
+  Desc: "\uD504\uB85C\uADF8\uB798\uBC0D \uCC45\uC774\uB2E4."
   Image: {fileID: 21300000, guid: 7605fdd247844734e89f4573d8418f81, type: 3}

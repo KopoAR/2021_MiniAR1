@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Poison
   m_EditorClassIdentifier: 
   Name: "\uBB3C\uC57D"
-  Desc: "\uC0AC\uBB3C\uD568 \uC815\uC120"
+  Desc: "\uC218\uC0C1\uD55C \uBB3C\uC57D\uC774\uB2E4."
   Image: {fileID: 21300000, guid: e0f8ab38cd4a86145a4af5fe34a31ed1, type: 3}
