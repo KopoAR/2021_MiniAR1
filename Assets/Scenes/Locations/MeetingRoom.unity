@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneLoadTypes:
-  - Scene: Stair
+  - Scene: MainStreet
     LoadMode: 1
   _unloadCurrentScene: 1
   _rig: {fileID: 216870782}
