@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneLoadTypes:
-  - Scene: Intro
+  - Scene: Title
     LoadMode: 1
   _unloadCurrentScene: 0
   _rig: {fileID: 0}

@@ -12,7 +12,6 @@ public class IntroPlay : MonoBehaviour
         bgmManager = BGMManager.instance;
         bgmManager.Stop(0);
         PlayBGM();
-
     }
 
     public void PlayBGM()

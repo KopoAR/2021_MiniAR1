@@ -20,18 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Locations/JsRoom.unity
     guid: 9f2ffd3bb8737644ca711ead0874a2c9
-  - enabled: 0
-    path: Assets/Scenes/Locations/JsRoomFront.unity
-    guid: 352ed6d7675e40f44b7cf5464ba58d5e
   - enabled: 1
     path: Assets/Scenes/Locations/Lobby.unity
     guid: 4fe0dc25f937bf4499878c4e10e7cb00
   - enabled: 1
     path: Assets/Scenes/Locations/Locker.unity
     guid: 470b0037c4e5a1642a5719f6a2d13d27
-  - enabled: 0
-    path: Assets/Scenes/Locations/LockerFront.unity
-    guid: 394d0f0de164ff24481533de97d021bd
   - enabled: 1
     path: Assets/Scenes/Locations/MacRoom.unity
     guid: 985f5cb954d43274396ef36705ef15e6
@@ -41,18 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Locations/MeetingRoom.unity
     guid: 87b57d5fc1a5ef247a903bdc111628b0
-  - enabled: 0
-    path: Assets/Scenes/Locations/MeetingRoomFront.unity
-    guid: 53faa3da8ed5e1c4fb2974eeebb3465f
   - enabled: 1
     path: Assets/Scenes/Locations/Stair.unity
     guid: b9b37b244ce568549aa5ef44a6dd5307
   - enabled: 1
     path: Assets/Scenes/Locations/WinRoom.unity
     guid: 578e67c680f41274f89a291c4db1a0ec
-  - enabled: 0
-    path: Assets/Scenes/Locations/WinRoomFront.unity
-    guid: 936675e254720dd4f834d91849f6402f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4023c0a48cf549d4d920a2fa68a16217, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0bfe22583e2c65b41acbe78ecadab8d7, type: 2}

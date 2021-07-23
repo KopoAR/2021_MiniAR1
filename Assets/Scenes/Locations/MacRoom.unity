@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17202911, g: 0.19213672, b: 0.17642346, a: 1}
+  m_IndirectSpecularColor: {r: 0.17207715, g: 0.19275023, b: 0.17685008, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -314,6 +314,8 @@ MonoBehaviour:
   - Scene: MainStreet
     LoadMode: 1
   _unloadCurrentScene: 1
+  _rig: {fileID: 2014585916}
+  _eventSys: {fileID: 218013937}
 --- !u!1 &23823284
 GameObject:
   m_ObjectHideFlags: 0
@@ -2189,6 +2191,11 @@ PrefabInstance:
 --- !u!4 &2014585915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+  m_PrefabInstance: {fileID: 2014585914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2014585916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5443604982191714741, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
   m_PrefabInstance: {fileID: 2014585914}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2115322904

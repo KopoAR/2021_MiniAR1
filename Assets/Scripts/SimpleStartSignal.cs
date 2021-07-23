@@ -7,7 +7,11 @@ public class SimpleStartSignal : MonoBehaviour
     [SerializeField] ColdLaunchSO _coldLaunchSO;
     private void Start()
     {
-        if(!_coldLaunchSO.isColdLaunch)
+#if !UNITY_EDITOR
+        _coldLaunchSO.isColdLaunch = false;
+#endif
+
+        if (!_coldLaunchSO.isColdLaunch)
             _onStart?.Invoke();
     }
 }

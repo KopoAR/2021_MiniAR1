@@ -22,7 +22,7 @@ public class BGMManager : MonoBehaviour
         else
         {
             instance = this;
-            //DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject);
         }
     }
     #endregion singleton
@@ -34,10 +34,10 @@ public class BGMManager : MonoBehaviour
             source = GetComponent<AudioSource>();
     }
 
-    private int _currentPlayTrack = -1; // -1Àº ¾Æ¹«°Íµµ Àç»ýÁßÀÌÁö ¾ÊÀº °Í
+    private int _currentPlayTrack = -1; // -1ï¿½ï¿½ ï¿½Æ¹ï¿½ï¿½Íµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
     public void Play(int _playMusicTrack)
     {
-        Debug.Log("´©°¡ Àç»ýÀ» È£ÃâÇÔ " + _playMusicTrack);
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½ï¿½ " + _playMusicTrack);
         if  (_playMusicTrack == _currentPlayTrack)
             return;
 
@@ -66,7 +66,7 @@ public class BGMManager : MonoBehaviour
 
     public void Stop(int _playMusicTrack)
     {
-        Debug.Log("´©°¡ Á¤Áö¸¦ È£ÃâÇÔ " + _playMusicTrack);
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½ï¿½ " + _playMusicTrack);
         _currentPlayTrack = -1;
         source.clip = clips[_playMusicTrack];
         source.Stop();
@@ -74,7 +74,7 @@ public class BGMManager : MonoBehaviour
 
     public void FadeOutMusic(int _playMusicTrack)
     {
-        Debug.Log("´©°¡ ÆäÀÌµå¾Æ¿ô¸¦ È£ÃâÇÔ " + _playMusicTrack);
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½Æ¿ï¿½ï¿½ È£ï¿½ï¿½ï¿½ï¿½ " + _playMusicTrack);
         _currentPlayTrack = -1;
         StopAllCoroutines();
         source.clip = clips[_playMusicTrack];
@@ -83,7 +83,7 @@ public class BGMManager : MonoBehaviour
 
     public void FadeInMusic(int _playMusicTrack)
     {
-        Debug.Log("´©°¡ ÆäÀÌµåÀÎ¸¦ È£ÃâÇÔ " + _playMusicTrack);
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ï¿½Î¸ï¿½ È£ï¿½ï¿½ï¿½ï¿½ " + _playMusicTrack);
         if (_playMusicTrack == _currentPlayTrack)
             return;
 
