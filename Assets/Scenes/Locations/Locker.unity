@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_CheckFor3DOcclusion: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RaycastTriggerInteraction: 1
 --- !u!114 &577685298
 MonoBehaviour:
@@ -1984,6 +1984,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: AudioPlay, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 961214215891098299, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 961214215891098301, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
       propertyPath: m_Name
       value: Keycode
@@ -2214,7 +2218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 961214217624453819, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 251
+      value: 181
       objectReference: {fileID: 0}
     - target: {fileID: 961214217624453819, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2252,7 +2256,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 961214217044535849, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214217231245838, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214217573890543, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216443243528, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216760410214, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216231946378, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214217483415331, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216012613433, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214215803720646, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216703148988, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216448079065, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214216477667955, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214217656258210, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214215891098300, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214215891098299, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
+    - {fileID: 961214215891098298, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0da4625888a47244fa2e252339d89bb2, type: 3}
 --- !u!224 &1114796696 stripped
 RectTransform:
@@ -3758,7 +3778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -474, y: 265}
+  m_AnchoredPosition: {x: -247, y: 236}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994477301
@@ -3932,6 +3952,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 577685301}
     m_Modifications:
+    - target: {fileID: 6870760044889751889, guid: e4dc0c80798d439499c8f6d3b4763e16, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6870760045004491206, guid: e4dc0c80798d439499c8f6d3b4763e16, type: 3}
       propertyPath: m_Name
       value: KeyPanel
@@ -3984,8 +4008,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6870760045541445899, guid: e4dc0c80798d439499c8f6d3b4763e16, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6870760045555242856, guid: e4dc0c80798d439499c8f6d3b4763e16, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870760045555242858, guid: e4dc0c80798d439499c8f6d3b4763e16, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870760046402315531, guid: e4dc0c80798d439499c8f6d3b4763e16, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
