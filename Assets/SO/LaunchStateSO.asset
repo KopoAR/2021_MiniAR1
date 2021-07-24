@@ -12,4 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2732bce98ac82245a0bda74576b9649, type: 3}
   m_Name: LaunchStateSO
   m_EditorClassIdentifier: 
-  isColdLaunch: 1
