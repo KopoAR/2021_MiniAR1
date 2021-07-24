@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: String
   m_EditorClassIdentifier: 
   Name: "\uB450\uAEBC\uC6B4 \uB048"
-  Desc: "\uC0AC\uBB3C\uD568 \uC724\uC218"
+  Desc: "\uD2BC\uD2BC\uD574 \uBCF4\uC774\uB294 \uB048\uC774\uB2E4."
   Image: {fileID: 21300000, guid: a2406164f46a0a849982d92e935a09ed, type: 3}

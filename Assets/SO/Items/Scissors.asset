@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Scissors
   m_EditorClassIdentifier: 
   Name: "\uAC00\uC704"
-  Desc: "\uC0AC\uBB3C\uD568 \uC18C\uD76C"
+  Desc: "\uB9E4\uC6B0 \uB0A0\uCE74\uB85C\uC6B4 \uAC00\uC704\uB2E4."
   Image: {fileID: 21300000, guid: c29926982b818534d986f6e70dd31c57, type: 3}

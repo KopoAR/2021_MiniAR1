@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Pen
   m_EditorClassIdentifier: 
   Name: "\uD39C"
-  Desc: "\uC0AC\uBB3C\uD568 \uACBD\uBBF8"
+  Desc: "\uB05D\uC774 \uBFB0\uC871\uD55C \uD39C\uC774\uB2E4."
   Image: {fileID: 21300000, guid: f64cb97cbfa46914e81f8909929d1b21, type: 3}
