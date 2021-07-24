@@ -4,21 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class SimpleStartSignal : MonoBehaviour
 {
+    [SerializeField] LaunchStateSO _launchStateSO;
     [SerializeField] UnityEvent _onStart;
-    [SerializeField] ColdLaunchSO _coldLaunchSO;
+
     private void Start()
     {
-#if !UNITY_EDITOR
-        _coldLaunchSO.isColdLaunch = false;
-#endif
-
-        if (!_coldLaunchSO.isColdLaunch)
-        {
-            _onStart?.Invoke();
+        if (_launchStateSO.IsLaunched)
             return;
-        }
 
-        if(SceneManager.sceneCount == 1)
-            _onStart?.Invoke();
+        _launchStateSO.IsLaunched = true;
+        _onStart?.Invoke();
     }
 }
