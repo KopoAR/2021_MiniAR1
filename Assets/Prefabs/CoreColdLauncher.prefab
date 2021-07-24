@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7a7340d3bb15447bad6eeefaed5bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _launchStateSO: {fileID: 11400000, guid: 594ac3e3089bd664d91191bf7dea3dc8, type: 2}
   _sceneStack:
   - Scene: Core
     LoadMode: 1
