@@ -5,7 +5,8 @@ public class SimpleSentencesSender : MonoBehaviour
     public ActiveDialogSO ActiveDialogSO;
     public SentencesSO SentencesSO;
     
-    [SerializeField] private SentencesData _sentencesData;
+    [SerializeField]
+    private SentencesData _sentencesData;
 
     public void Send()
     {

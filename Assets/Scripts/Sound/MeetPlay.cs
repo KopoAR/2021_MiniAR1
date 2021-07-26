@@ -33,13 +33,13 @@ public class MeetPlay : MonoBehaviour
     }
 
     
-    public void WinBGM(int winBG)
+    public void WinBGM()
     {
         bgmManager.Stop(bgmNum);
         bgmManager.Play(winBG);
     }
 
-    public void LoseBGM(int loseBG)
+    public void LoseBGM()
     {
         bgmManager.Stop(bgmNum);
         bgmManager.Play(loseBG);
