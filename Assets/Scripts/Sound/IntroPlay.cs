@@ -6,17 +6,25 @@ public class IntroPlay : MonoBehaviour
 {
     private BGMManager bgmManager;
 
-
     void Start()
     {
+        StartCoroutine(TryPlayBGM());
+    }
+
+    private IEnumerator TryPlayBGM()
+    {
+        while(BGMManager.instance == null)
+        {
+            yield return new WaitForFixedUpdate();
+        }
+
         bgmManager = BGMManager.instance;
-        bgmManager.Stop(0);
         PlayBGM();
     }
 
     public void PlayBGM()
     {
-        bgmManager.Play(9);
-        bgmManager.SetVoulme(0.2f, 9);
+        bgmManager.Play(8);
+        bgmManager.SetVoulme(0.2f, 8);
     }
 }

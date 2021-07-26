@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Sound
@@ -66,11 +66,9 @@ public class AudioManager : MonoBehaviour
         else
         {
             instance = this;
-            //DontDestroyOnLoad(gameObject);
         }
     }
     #endregion singleton
-
 
     void Start()
     {

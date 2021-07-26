@@ -22,7 +22,6 @@ public class BGMManager : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
     }
     #endregion singleton
