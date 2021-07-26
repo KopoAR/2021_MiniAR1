@@ -14,6 +14,7 @@ public class Dialog : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _sentence;
 
     private Queue<SentenceData> _sentenceQueue;
+    private SentenceData? _prevSentence;
 
     private void Awake()
     {
@@ -48,6 +49,8 @@ public class Dialog : MonoBehaviour
 
     public void NextSentences()
     {
+        _prevSentence?.EndActions?.Invoke();
+
         if(_sentenceQueue.Count == 0)
         {
             _panel.SetActive(false);
@@ -55,7 +58,11 @@ public class Dialog : MonoBehaviour
         }
 
         var nextSentence = _sentenceQueue.Dequeue();
+
+        nextSentence.BeginActions?.Invoke();
         _sentence.text = nextSentence.Sentence;
         nextSentence.Actions?.Invoke();
+
+        _prevSentence = nextSentence;
     }
 }
