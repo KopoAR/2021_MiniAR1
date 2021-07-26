@@ -202,6 +202,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4178700268471334417, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5443604981821608319, guid: 285719f6b1676ca4397b5143114c41e1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -1221,6 +1225,10 @@ PrefabInstance:
     - target: {fileID: 2159356960692875981, guid: 98f2ca777eb9d8a4bb99951c1fedb0a5, type: 3}
       propertyPath: m_Name
       value: Canvas-Location
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159356960692875982, guid: 98f2ca777eb9d8a4bb99951c1fedb0a5, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2159356961637835324, guid: 98f2ca777eb9d8a4bb99951c1fedb0a5, type: 3}
       propertyPath: m_text
