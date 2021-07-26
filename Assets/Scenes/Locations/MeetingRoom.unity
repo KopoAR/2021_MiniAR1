@@ -515,12 +515,24 @@ MonoBehaviour:
     Title: "\uB178\uACBD\uBBF8"
     Sentences:
     - Sentence: "\uB3D9\uD604\uC528\uC694?"
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
         m_PersistentCalls:
           m_Calls: []
+      EndActions:
+        m_PersistentCalls:
+          m_Calls: []
     - Sentence: "\uC544\uAE4C \uBD24\uC744 \uB54C\uB294 \uC720\uB2C8\uD2F0\uD558\uACE0
-        \uACC4\uC2DC\uB358 \uAC83 \uAC19\uC740\uB370."
+        \uACC4\uC2DC\uB358 \uAC83 \uAC19\uC740\uB370.."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
 --- !u!1 &581569471
@@ -839,12 +851,24 @@ MonoBehaviour:
     Title: "\uAE40\uC18C\uD76C"
     Sentences:
     - Sentence: "\uC2A4\uD130\uB514 \uD558\uACE0 \uC788\uC5C8\uC5B4\uC694."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
         m_PersistentCalls:
           m_Calls: []
+      EndActions:
+        m_PersistentCalls:
+          m_Calls: []
     - Sentence: "\uBB3C \uB9C8\uC2DC\uB7EC \uB098\uAC04 \uAC83 \uB9D0\uACE0\uB294
-        \uACC4\uC18D \uD734\uAC8C\uC2E4\uC5D0 \uC788\uC5C8\uC5B4\uC694."
+        \uACC4\uC18D \uD734\uACC4\uC2E4\uC5D0 \uC788\uC5C8\uC5B4\uC694."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
 --- !u!1 &991278705
@@ -1187,21 +1211,45 @@ MonoBehaviour:
     Title: "\uC815\uC724\uC218"
     Sentences:
     - Sentence: "\uACC4\uB2E8\uC73C\uB85C \uB0B4\uB824\uAC14\uC5C8\uB0D0\uACE0\uC694?"
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
     - Sentence: "\uD3B8\uC758\uC810 \uAC14\uC5C8\uC5B4\uC694."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
         m_PersistentCalls:
           m_Calls: []
-    - Sentence: "\uADFC\uB370 1\uC2DC\uAC04 \uC804\uCBE4\uC778\uAC00 \uD55C\uCC38
+      EndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - Sentence: "\uADFC\uB370 \uD55C \uC2DC\uAC04 \uC804\uCBE4\uC778\uAC00 \uD55C\uCC38
         \uC804\uC5D0 \uAC14\uC5C8\uB294\uB370\uC694?"
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
     - Sentence: "\uC81C \uC548\uACBD \uC5B4\uB514\uC11C \uCC3E\uC558\uC5B4\uC694?
         \uD55C\uCC38 \uCC3E\uC558\uC5B4\uC694."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
 --- !u!4 &1200273375
@@ -1759,18 +1807,42 @@ MonoBehaviour:
     Title: "\uCD5C\uC815\uC120"
     Sentences:
     - Sentence: "\uBB50\uD558\uACE0 \uC788\uC5C8\uB0D0\uACE0?"
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
     - Sentence: "\uACC4\uC18D \uB137\uC774\uC11C \uC2A4\uD130\uB514\uD558\uACE0 \uC788\uC5C8\uC5B4."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
         m_PersistentCalls:
           m_Calls: []
-    - Sentence: "\uC790\uB9AC\uBE44\uC6B4 \uC801 \uC5C6\uB0D0\uACE0?"
+      EndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - Sentence: "\uC790\uB9AC \uBE44\uC6B4 \uC801 \uC5C6\uB0D0\uACE0?"
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
         m_PersistentCalls:
           m_Calls: []
-    - Sentence: "\uD654\uC7A5\uC2E4 \uC7A0\uAE50 \uAC14\uB2E4\uC654\uC5C8\uC9C0."
+      EndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - Sentence: "\uD654\uC7A5\uC2E4 \uC7A0\uAE50 \uAC14\uB2E4 \uC654\uC5C8\uC9C0."
+      BeginActions:
+        m_PersistentCalls:
+          m_Calls: []
       Actions:
+        m_PersistentCalls:
+          m_Calls: []
+      EndActions:
         m_PersistentCalls:
           m_Calls: []
