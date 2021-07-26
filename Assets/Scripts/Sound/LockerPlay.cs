@@ -5,19 +5,28 @@ using UnityEngine;
 public class LockerPlay : MonoBehaviour
 {
     private BGMManager bgmManager;
+    public int bgmNum;
 
 
     void Start()
     {
-        bgmManager = BGMManager.instance;
-        bgmManager.Stop(7);
-        PlayBGM();
-
+        StartCoroutine(TryPlayBGM());
     }
 
-    public void PlayBGM()
+    private IEnumerator TryPlayBGM()
     {
-        bgmManager.Play(4);
-        bgmManager.SetVoulme(0.2f, 4);
+        while (BGMManager.instance == null)
+        {
+            yield return new WaitForFixedUpdate();
+        }
+
+        bgmManager = BGMManager.instance;
+        PlayBGM(bgmNum);
+    }
+
+    public void PlayBGM(int n)
+    {
+        bgmManager.Play(n);
+        bgmManager.SetVoulme(0.2f, n);
     }
 }

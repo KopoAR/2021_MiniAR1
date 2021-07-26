@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 6556142783760832761}
   - component: {fileID: 6556142783760832762}
   - component: {fileID: 6556142783760832760}
-  m_Layer: 5
-  m_Name: Panel
+  m_Layer: 6
+  m_Name: Dialog-Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6556142783760832763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 6556142783885053878}
   - component: {fileID: 6556142783885053876}
   - component: {fileID: 6556142783885053877}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 6556142784062756354}
   - component: {fileID: 6556142784062756355}
   - component: {fileID: 6556142784062756356}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas-Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6556142784062756357}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 400}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &6556142784062756354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 6556142784180978350}
   - component: {fileID: 6556142784180978351}
   - component: {fileID: 6556142784180978336}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Sentence
   m_TagString: Untagged
   m_Icon: {fileID: 0}

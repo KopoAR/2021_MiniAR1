@@ -450,7 +450,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 411a04102f716c943ac2ce49f8351473, type: 3}
     m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
@@ -655,7 +655,7 @@ MonoBehaviour:
   bg309: {fileID: 836301189}
   bg311: {fileID: 1580261851}
   bg313: {fileID: 73958789}
-  hindHint: {fileID: 1783780634}
+  hideHint: {fileID: 1783780634}
   keyCode: {fileID: 1114796697}
   openPanel: {fileID: 1654793246}
   open306: {fileID: 741066107}
@@ -746,8 +746,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: "\uB9E5\uC2E4\n\uBAA8\uB2C8\uD130 \uD654\uBA74\uC5D0\uC11C\n\uBC88\uD638\uB97C\n\uD655\uC778\uD558\uC2DC\uC624"
+    m_LineSpacing: 2
+  m_Text: "<color=white>\uBAA8\uB2C8\uD130\uC5D0\uC11C\n\uBC88\uD638\uB97C\n\uD655\uC778\uD558\uC2DC\uC624</color>"
 --- !u!222 &238681076
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -891,7 +891,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 411a04102f716c943ac2ce49f8351473, type: 3}
     m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
@@ -1937,10 +1937,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToEnable: {fileID: 1114796697}
-  hindHint: {fileID: 1783780634}
+  hideHint: {fileID: 1783780634}
   curPassword:
   - 0220
-  - 0680
+  - 6890
   - 1234
   - 0689
   input: 
@@ -2913,9 +2913,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: "\uB2E4\uB978 \uC0AC\uBB3C\uD568\uC758\n\uBE44\uBC00\uBC88\uD638\uB97C
-    \n\uAC70\uAFB8\uB85C \uB098\uC5F4\uD558\uC2DC\uC624"
+    m_LineSpacing: 2
+  m_Text: "<color=white>\uB9E5\uC2E4\uC5D0\uC11C\n\uCABD\uC9C0\uB97C \n\uD655\uC778\uD558\uC2DC\uC624</color>"
 --- !u!222 &1374278006
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3215,8 +3214,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: "\uB9E5\uC2E4\uC5D0 \uC788\uB294\n\uCABD\uC9C0\uB97C \n\uD655\uC778\uD558\uC2DC\uC624"
+    m_LineSpacing: 2
+  m_Text: "<color=yellow>\uCABD\uC9C0\uB97C\n\uAC70\uAFB8\uB85C \uB4A4\uC9D1\uC5B4\n\uD655\uC778\uD558\uC2DC\uC624</color>"
 --- !u!222 &1632982518
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3358,7 +3357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 411a04102f716c943ac2ce49f8351473, type: 3}
     m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
@@ -4064,7 +4063,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 411a04102f716c943ac2ce49f8351473, type: 3}
     m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
@@ -4246,8 +4245,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: "\uB2EC\uB825\uC5D0 \uD45C\uAE30\uB41C\n\uC0DD\uC77C\uC744\n\uD655\uC778\uD558\uC2DC\uC624"
+    m_LineSpacing: 2
+  m_Text: "<color=yellow>\uB2EC\uB825\uC5D0 \uD45C\uC2DC\uB41C\n\uC0DD\uC77C\uC744\n\uD655\uC778\uD558\uC2DC\uC624</color>"
 --- !u!222 &2107092779
 CanvasRenderer:
   m_ObjectHideFlags: 0

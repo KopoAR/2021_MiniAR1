@@ -41,7 +41,7 @@ public class LockerManager : MonoBehaviour
     public GameObject bg309;
     public GameObject bg311;
     public GameObject bg313;
-    public GameObject hindHint;
+    public GameObject hideHint;
 
     public GameObject keyCode;
 
@@ -111,7 +111,7 @@ public class LockerManager : MonoBehaviour
         on306 = true;
 
         bg306.SetActive(true);
-        hindHint.SetActive(true);
+        hideHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -123,7 +123,7 @@ public class LockerManager : MonoBehaviour
         on309 = true;
 
         bg309.SetActive(true);
-        hindHint.SetActive(true);
+        hideHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -135,7 +135,7 @@ public class LockerManager : MonoBehaviour
         on311 = true;
 
         bg311.SetActive(true);
-        hindHint.SetActive(true);
+        hideHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -147,7 +147,7 @@ public class LockerManager : MonoBehaviour
         on313 = true;
 
         bg313.SetActive(true);
-        hindHint.SetActive(true);
+        hideHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -157,6 +157,7 @@ public class LockerManager : MonoBehaviour
         keyOn = false;
         openOn = true;
 
+        keyCode.SetActive(false);
         open306.SetActive(true);
     }
 
@@ -166,6 +167,7 @@ public class LockerManager : MonoBehaviour
         keyOn = false;
         openOn = true;
 
+        keyCode.SetActive(false);
         open309.SetActive(true);
     }
 
@@ -175,6 +177,7 @@ public class LockerManager : MonoBehaviour
         keyOn = false;
         openOn = true;
 
+        keyCode.SetActive(false);
         open311.SetActive(true);
     }
 
@@ -184,6 +187,7 @@ public class LockerManager : MonoBehaviour
         keyOn = false;
         openOn = true;
 
+        keyCode.SetActive(false);
         open313.SetActive(true);
     }
 
@@ -200,6 +204,8 @@ public class LockerManager : MonoBehaviour
         bg309.SetActive(false);
         bg311.SetActive(false);
         bg313.SetActive(false);
+
+        hideHint.SetActive(false);
         keyCode.SetActive(false);
 
         lockerPanel.SetActive(true);
