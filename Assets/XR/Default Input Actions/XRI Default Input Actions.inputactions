@@ -919,6 +919,33 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "LeftHand",
+            "id": "c11cedb0-150b-42db-9efc-933b0e37fbb0",
+            "actions": [
+                {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "aeff59d7-dce9-4412-a1ad-6b8efae956fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b8cc49d5-293e-454d-b16b-edb8b9ac9a73",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
