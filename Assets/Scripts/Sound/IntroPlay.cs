@@ -5,6 +5,7 @@ using UnityEngine;
 public class IntroPlay : MonoBehaviour
 {
     private BGMManager bgmManager;
+    public int bgmNum;
 
     void Start()
     {
@@ -19,12 +20,12 @@ public class IntroPlay : MonoBehaviour
         }
 
         bgmManager = BGMManager.instance;
-        PlayBGM();
+        PlayBGM(bgmNum);
     }
 
-    public void PlayBGM()
+    public void PlayBGM(int n)
     {
-        bgmManager.Play(8);
-        bgmManager.SetVoulme(0.2f, 8);
+        bgmManager.Play(n);
+        bgmManager.SetVoulme(0.2f, n);
     }
 }

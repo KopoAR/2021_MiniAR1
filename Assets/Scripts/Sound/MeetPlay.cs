@@ -5,20 +5,29 @@ using UnityEngine;
 public class MeetPlay : MonoBehaviour
 {
     private BGMManager bgmManager;
+    public int bgmNum;
 
 
     void Start()
     {
-        bgmManager = BGMManager.instance;
-        bgmManager.Stop(4);
-        PlayBGM();
-
+        StartCoroutine(TryPlayBGM());
     }
 
-    public void PlayBGM()
+    private IEnumerator TryPlayBGM()
     {
-        bgmManager.Play(6);
-        bgmManager.SetVoulme(0.2f, 6);
+        while (BGMManager.instance == null)
+        {
+            yield return new WaitForFixedUpdate();
+        }
+
+        bgmManager = BGMManager.instance;
+        PlayBGM(bgmNum);
+    }
+
+    public void PlayBGM(int n)
+    {
+        bgmManager.Play(n);
+        bgmManager.SetVoulme(0.2f, n);
     }
 
     

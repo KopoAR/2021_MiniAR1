@@ -8,7 +8,7 @@ public class Keypad : MonoBehaviour
 {
 
     public GameObject objectToEnable;
-    public GameObject hindHint;
+    public GameObject hideHint;
 
 
     [Header("Keypad Settings")]
@@ -175,7 +175,7 @@ public class Keypad : MonoBehaviour
         {
             case "H":
                 objectToEnable.SetActive(false);
-                hindHint.SetActive(false);
+                hideHint.SetActive(false);
                 btnClicked = 0;
                 keypadScreen = false;
                 input = "";
