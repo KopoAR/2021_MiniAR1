@@ -6,6 +6,8 @@ public class MeetPlay : MonoBehaviour
 {
     private BGMManager bgmManager;
     public int bgmNum;
+    public int winBG;
+    public int loseBG;
 
 
     void Start()
@@ -31,9 +33,16 @@ public class MeetPlay : MonoBehaviour
     }
 
     
-    public void EndBGM()
+    public void WinBGM(int winBG)
     {
-        bgmManager.FadeOutMusic(6);
-        bgmManager.FadeInMusic(8);
+        bgmManager.Stop(bgmNum);
+        bgmManager.Play(winBG);
+    }
+
+    public void LoseBGM(int loseBG)
+    {
+        bgmManager.Stop(bgmNum);
+        bgmManager.Play(loseBG);
     }
 }
+
