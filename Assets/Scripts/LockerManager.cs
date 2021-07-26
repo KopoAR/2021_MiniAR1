@@ -41,6 +41,7 @@ public class LockerManager : MonoBehaviour
     public GameObject bg309;
     public GameObject bg311;
     public GameObject bg313;
+    public GameObject hindHint;
 
     public GameObject keyCode;
 
@@ -110,6 +111,7 @@ public class LockerManager : MonoBehaviour
         on306 = true;
 
         bg306.SetActive(true);
+        hindHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -121,6 +123,7 @@ public class LockerManager : MonoBehaviour
         on309 = true;
 
         bg309.SetActive(true);
+        hindHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -132,6 +135,7 @@ public class LockerManager : MonoBehaviour
         on311 = true;
 
         bg311.SetActive(true);
+        hindHint.SetActive(true);
         keyCode.SetActive(true);
     }
 
@@ -143,6 +147,7 @@ public class LockerManager : MonoBehaviour
         on313 = true;
 
         bg313.SetActive(true);
+        hindHint.SetActive(true);
         keyCode.SetActive(true);
     }
 

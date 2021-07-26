@@ -8,6 +8,7 @@ public class Keypad : MonoBehaviour
 {
 
     public GameObject objectToEnable;
+    public GameObject hindHint;
 
 
     [Header("Keypad Settings")]
@@ -31,7 +32,6 @@ public class Keypad : MonoBehaviour
         btnClicked = 0; 
         numOfGuesses = curPassword.Length;
         audioSource = GetComponent<AudioSource>();
-
     }
 
 
@@ -173,8 +173,9 @@ public class Keypad : MonoBehaviour
     {
         switch (valueEntered)
         {
-            case "Q":
+            case "H":
                 objectToEnable.SetActive(false);
+                hindHint.SetActive(false);
                 btnClicked = 0;
                 keypadScreen = false;
                 input = "";
