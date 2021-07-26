@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioPlay : MonoBehaviour
 {
@@ -17,11 +18,17 @@ public class AudioPlay : MonoBehaviour
 
     void Start()
     {
-        audioManager = AudioManager.instance;
-        //bgmManager = BGMManager.instance;
+        StartCoroutine(TryGetManager());
+    }
 
-       // bgmManager.Play(playMusicTrack);
-        //bgmManager.SetVo+ulme(0.2f, playMusicTrack);
+    private IEnumerator TryGetManager()
+    {
+        while(AudioManager.instance == null)
+        {
+            yield return new WaitForFixedUpdate();
+        }
+
+        audioManager = AudioManager.instance;
     }
 
     public void Click_Effect()
