@@ -4,7 +4,9 @@ using UnityEngine.Events;
 public struct SentenceData
 {
     public string Sentence;
+    public UnityEvent BeginActions;
     public UnityEvent Actions;
+    public UnityEvent EndActions;
 }
 
 [System.Serializable]
