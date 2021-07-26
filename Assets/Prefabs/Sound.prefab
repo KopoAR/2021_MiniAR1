@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8729964004831440074
 Transform:
   m_ObjectHideFlags: 0
@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgmNum: 6
+  winBG: 1
+  loseBG: 2
 --- !u!1 &7507118946221442800
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7174680128523174993, guid: d8c48b4f7da54e540bf5d24dc4f7973a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7174680128523174994, guid: d8c48b4f7da54e540bf5d24dc4f7973a, type: 3}
       propertyPath: m_RootOrder

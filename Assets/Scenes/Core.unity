@@ -208,30 +208,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1284304301148193008, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: bgmNum
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1637607449489832432, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: bgmNum
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2040662821924600902, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3491250709494409905, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: bgmNum
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4180047451379943074, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4954655987236576664, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: bgmNum
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 6489807596100077903, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -279,18 +255,6 @@ PrefabInstance:
     - target: {fileID: 7507118946221442800, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
       propertyPath: m_Name
       value: Sound
-      objectReference: {fileID: 0}
-    - target: {fileID: 7507118946221442800, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7651282642951604356, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7720360764058755014, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3a3c03bec73ba044ab102e70fc83ca3, type: 3}
@@ -349,6 +313,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1505410241942989263, guid: 3b323f5d12bd200409e656367d9a2128, type: 3}
+      propertyPath: clips.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1505410241942989263, guid: 3b323f5d12bd200409e656367d9a2128, type: 3}
+      propertyPath: clips.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: f2c5537ac5342734cbe83ad4deb6ea89, type: 3}
+    - target: {fileID: 1505410241942989263, guid: 3b323f5d12bd200409e656367d9a2128, type: 3}
+      propertyPath: clips.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7b50c01aa6004744996de75209a8a4e0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b323f5d12bd200409e656367d9a2128, type: 3}
 --- !u!1001 &1637397236
