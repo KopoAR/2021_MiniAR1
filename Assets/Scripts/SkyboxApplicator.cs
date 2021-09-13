@@ -32,6 +32,7 @@ namespace mv
 
         private bool IsValidSelection(int index) => (index < _namedSkyboxs.Length) && (index >= 0) && (_namedSkyboxs[index].Material != null);
 
+#if UNITY_EDITOR
         private void OnValidate()
         {
             if (_namedSkyboxs.Length == 0)
@@ -47,6 +48,7 @@ namespace mv
             _correctSelection = _selection;
             ChangeSkybox(_selection);
         }
+#endif
 
         public void ChangeSkybox(int index)
         {

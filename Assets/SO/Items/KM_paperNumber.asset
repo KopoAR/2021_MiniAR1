@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42b8c45dc065c4e9a3606b58e9e4db, type: 3}
+  m_Name: KM_paperNumber
+  m_EditorClassIdentifier: 
+  Name: "\uB2EC\uB825"
+  Desc: "\uB178\uACBD\uBBF8 \uC790\uB9AC\uC758 \uB178\uD2B8. 2\uC6D4 20\uC77C\uC5D0
+    \uC0DD\uC77C\uC774 \uD45C\uC2DC\uB418\uC5B4 \uC788\uB2E4."
+  Image: {fileID: 21300000, guid: 82d72317bfb96c44d9f0f5182d4f76c2, type: 3}
